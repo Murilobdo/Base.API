@@ -1,0 +1,6 @@
+﻿services:
+  base.api:
+    image: base.api
+    build:
+      context: .
+      dockerfile: Base.API/Dockerfile
