@@ -17,4 +17,9 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Base.Core\Base.Core.csproj" />
+      <ProjectReference Include="..\Base.Infra\Base.Infra.csproj" />
+    </ItemGroup>
+
 </Project>
